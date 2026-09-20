@@ -65,5 +65,20 @@ public class Main {
             System.out.println("Birth month: " + birthMonth);
             System.out.println("Full name: " + fullName);
 
+            // Task 1
+            double purchasePrice = 100.50;
+            double salesTax = purchasePrice * 0.05;
+            System.out.println("\nTask 1:");
+            System.out.printf("Purchase price: $%.2f%n", purchasePrice);
+            System.out.printf("5%% sales tax: $%.2f%n", salesTax);
+
+            // Task 2
+            double springMaintenance = 900.00;
+            double summerMaintenance = 750.00;
+            double fallMaintenance = 400.00;
+            double winterMaintenance = 1200.00;
+            double yearlyMaintenance = springMaintenance + summerMaintenance
+                        + fallMaintenance + winterMaintenance;
+
     }
         }

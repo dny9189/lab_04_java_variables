@@ -80,5 +80,11 @@ public class Main {
             double yearlyMaintenance = springMaintenance + summerMaintenance
                         + fallMaintenance + winterMaintenance;
 
+            System.out.println("\nTask 2:");
+            System.out.printf("Spring maintenance: $%.2f%n", springMaintenance);
+            System.out.printf("Summer maintennce: $%.2f%n", summerMaintenance);
+            System.out.printf("Fall maintenance: $%.2f%n", fallMaintenance);
+            System.out.printf("Winter maintenence: $%.2f%n", winterMaintenance);
+            System.out.printf("Total yearly maintennce: $%.2f%n", yearlyMaintenance);
     }
         }

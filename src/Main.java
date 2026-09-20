@@ -19,7 +19,7 @@ public Class Main {
             System.out.println("The sum using ints of " + intOperandA intSum);
 
             intProduct = intOperandA * intOperandB;
-            System.out.println("The product using ints of " + intOperandA + "*" + intOperandB + " is "+ intProduct);
+            System.out.println("The product using ints of " + intOperandA + " * " + intOperandB + " is " + intProduct);
 
             intDifference = intOperandA - intOperandB;
             System.out.println("The difference using ints of " + intOperandA + " - " intOperandB + " is " + intDifference);

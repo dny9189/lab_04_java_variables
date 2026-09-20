@@ -111,7 +111,6 @@ public class Main {
             System.out.println("\nTask 4");
             System.out.println("Number examined: " + numToExamine);
             System.out.println("Modulo 2 is: " + remainder);
-            System.out.println("Since value is 0 means number is even.");
-            System.out.println("Since value is 1 means number is odd.");
+            System.out.println("Since the value is 1, means that the number is odd.");
         }
 }

@@ -2,7 +2,7 @@ public Class Main {
     public static void main [String[] args] {
             int intOperandA = 1;
             int intOperandB = 3;
-            int inSum = 7;
+            int intSum = 7;
             int intProduct = 9;
             int intDifference = 12;
             int intQuotient = 14;

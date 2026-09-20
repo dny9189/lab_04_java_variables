@@ -103,5 +103,15 @@ public class Main {
             System.out.printf("Balance after one month: $%.2f%n" , balanceAfterOneMonth);
             System.out.printf("Interest at two months: $%.2f%n" , secondMonthInterest);
             System.out.printf("Balence after two months: $%.2f%n" , balanceAfterTwoMonths);
-    }
+
+            // Task 4
+            int numToExamine = 23;
+            int remainder = numToExamine % 2;
+
+            System.out.println("\nTask 4");
+            System.out.println("Number examined: " + numToExamine);
+            System.out.println("Modulo 2 is: " + remainder);
+            System.out.println("Since value is 0 means number is even.");
+            System.out.println("Since value is 1 means number is odd.");
         }
+}

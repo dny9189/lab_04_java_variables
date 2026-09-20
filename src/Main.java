@@ -78,7 +78,7 @@ public class Main {
             double fallMaintenance = 400.00;
             double winterMaintenance = 1200.00;
             double yearlyMaintenance = springMaintenance + summerMaintenance
-                        + fallMaintenance + winterMaintenance;
+                   + fallMaintenance + winterMaintenance;
 
             System.out.println("\nTask 2:");
             System.out.printf("Spring maintenance: $%.2f%n", springMaintenance);
@@ -86,5 +86,22 @@ public class Main {
             System.out.printf("Fall maintenance: $%.2f%n", fallMaintenance);
             System.out.printf("Winter maintenence: $%.2f%n", winterMaintenance);
             System.out.printf("Total yearly maintennce: $%.2f%n", yearlyMaintenance);
+
+            // Task 3
+            double creditCardBalance = 5000.00;
+            double interestRate = 0.17;
+
+            double firstMonthInterest = creditCardBalance * interestRate;
+            double balanceAfterOneMonth = creditCardBalance + firstMonthInterest;
+
+            double secondMonthInterest = balanceAfterOneMonth * interestRate;
+            double balanceAfterTwoMonths = balanceAfterOneMonth + secondMonthInterest;
+
+            System.out.println("\nTask 3");
+            System.out.printf("Starting credit card balence: $%.2f%n" , creditCardBalance);
+            System.out.printf("Interest at one month: $%.2f%n" , firstMonthInterest);
+            System.out.printf("Balance after one month: $%.2f%n" , balanceAfterOneMonth);
+            System.out.printf("Interest at two months: $%.2f%n" , secondMonthInterest);
+            System.out.printf("Balence after two months: $%.2f%n" , balanceAfterTwoMonths);
     }
         }

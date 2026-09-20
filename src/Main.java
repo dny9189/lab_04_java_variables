@@ -1,5 +1,7 @@
-public Class Main {
+public class Main {
     public static void main [String[] args] {
+
+            // Integer variables
             int intOperandA = 1;
             int intOperandB = 3;
             int intSum = 7;
@@ -8,6 +10,7 @@ public Class Main {
             int intQuotient = 14;
             int intModulo = 17
 
+           // Double variables
             double doubleOperandA = 3.25;
             double doubleOperandB = 4.29;
             double doubleSum = 5.51;
@@ -15,6 +18,7 @@ public Class Main {
             double doubleDifferance = 8.29;
             double doubleQuotient = 11.5;
 
+            // integer arithmtic
             intSum = intOperandA + intOperandB;
             System.out.println("The sum using ints of " + intOperandA intSum);
 
@@ -29,5 +33,8 @@ public Class Main {
 
             intModulo = intOperandA % intOperandB;
             System.out.println(" THe modulo using ints of " + intOperandA + " % " + intOperandB + " is " + intModulo);
+
+            // double arithmetic
+
         }
         }
